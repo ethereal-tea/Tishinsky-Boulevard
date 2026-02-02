@@ -1715,13 +1715,24 @@ textarea {
     margin: 0 -20px;
   }
 }
+@media screen and (min-width: 1441px) {
+  .children-info__image {
+    margin-left: calc((30px + (100vw - 1440px) / 2) * -1);
+    margin-right: calc((30px + (100vw - 1440px) / 2) * -1);
+  }
+}
 .children-info__img {
-  width: 100%;
+  width: 100vw;
   height: 800px;
 }
 @media (max-width: 767px) {
   .children-info__img {
     height: 240px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .children-info__img {
+    height: 1000px;
   }
 }
 
