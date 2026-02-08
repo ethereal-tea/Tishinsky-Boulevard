@@ -369,7 +369,7 @@ textarea {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 80px;
 }
 @media (max-width: 1023px) {
   .container {
@@ -379,6 +379,11 @@ textarea {
 @media (max-width: 767px) {
   .container {
     padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .container {
+    padding: 0 30px;
   }
 }
 
@@ -953,7 +958,6 @@ textarea {
 .respectability {
   margin: 0 0 120px 0;
   position: relative;
-  overflow: hidden;
 }
 @media (max-width: 767px) {
   .respectability {
@@ -1367,6 +1371,11 @@ textarea {
     gap: 30px;
   }
 }
+@media (max-width: 767px) {
+  .unique__gallery-list {
+    gap: 9px;
+  }
+}
 .unique__gallery-item:not(:last-child) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 0 0 25px 0;
@@ -1707,7 +1716,7 @@ textarea {
   }
 }
 .children-info__image {
-  margin: 0 -30px;
+  margin: 0 -80px;
   display: flex;
 }
 @media (max-width: 767px) {
@@ -2254,6 +2263,7 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 95px 1fr;
   gap: 50px;
+  justify-items: start;
   align-items: center;
 }
 @media (max-width: 767px) {

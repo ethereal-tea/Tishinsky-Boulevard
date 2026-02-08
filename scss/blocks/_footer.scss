@@ -261,6 +261,7 @@
     display: grid;
     grid-template-columns: 1fr 95px 1fr;
     gap: 50px;
+    justify-items: start;
     align-items: center;
 
     @include vp-767 {

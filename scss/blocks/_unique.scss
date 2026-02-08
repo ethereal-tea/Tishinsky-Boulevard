@@ -139,6 +139,10 @@
       flex-direction: row;
       gap: 30px;
     }
+
+        @include vp-767 {
+      gap: 9px;
+    }
   }
 
   &__gallery-item {
